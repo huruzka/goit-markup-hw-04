@@ -109,10 +109,10 @@ header{
     margin-left: 50px;
 }
 
-.nav-list :hover,
-.nav-list :focus{
+.nav-item :hover,
+.nav-item :focus{
     color: var(--blue-color);
-    background-color: var(--white-color)
+    background-color: var(--white-color);
 }
 
 .current{
@@ -409,7 +409,7 @@ header{
 .filter:hover,:focus{
     color: var(--white-color);
     background-color: var(--blue-color);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /*стили портфолио*/
 .portfolio-block-titels{
@@ -436,6 +436,11 @@ header{
 }
 .portfolio-item:nth-last-child(-n+3){
     margin-bottom: 0px;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /*стиль футер*/
