@@ -12,6 +12,7 @@
     --background-hero-section: #2F303A;
     --border-color: #EEEEEE;
     --filter-background-color: #F5F4FA;
+    --border-color-icon: #AFB1B8;
 }
 /*убираю стили по умолчание*/
 h1,
@@ -127,9 +128,16 @@ header{
     letter-spacing: 0.02em;
     color:var(--text-color)
     }
-
+.contact-icon{
+    fill: var(--text-color)
+}
+.contact-icon:hover{
+    
+    cursor: pointer;
+}
 .contact-list :hover,
 .contact-list :focus{
+    fill: var(--blue-color);
     color: var(--blue-color);
     background-color: var(--white-color);
 }
@@ -334,8 +342,24 @@ header{
 }
 .clients-list{
     display: flex;
+    justify-content: center;
 }
-
+.client-logo{
+    padding: 16px 32px 16px 32px;
+    margin: 0px;
+    outline: 1px solid var(--border-color-icon);
+    width: 170px;
+    height: 92px;
+    fill: var(--border-color-icon)
+}
+.client-logo:not(:last-child){
+    margin-right: 30px;
+}
+.client-logo:hover,
+.client-logo:focus{
+    fill: var(--blue-color);
+    cursor: pointer;
+}
 /*кнопки фильтров*/
 .portfolio{
     padding-bottom: 94px;
@@ -414,7 +438,8 @@ header{
     cursor: pointer;
 }
 
-.filter:hover,:focus{
+.filter:hover,
+.filter:focus{
     color: var(--white-color);
     background-color: var(--blue-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
