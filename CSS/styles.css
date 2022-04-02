@@ -116,10 +116,6 @@ header{
     background-color: var(--white-color);
 }
 
-.current{
-    color: var(--blue-color);
-}
-
 .email,
 .tel{
     font-weight: 500;
