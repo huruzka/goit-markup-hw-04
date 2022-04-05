@@ -339,6 +339,8 @@ header{
 
 .sociallinks-item{
     padding: 12px;
+    width: 44px;
+    height: 44px;
     margin-left: 10px;
     border-radius: 30px;
     background-color: var(--white-color);
@@ -582,12 +584,18 @@ header{
     display: flex;
 }
 .social-link-icon{
-    fill: var(--white-color);
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 30px;
     width: 44px;
     height: 44px;
     padding: 12px;
+    margin-right: 10px;
+}
+.social-link-icon:first-child{
+    margin-right: 0px;
+}
+.svg-icon{
+    fill: var(--white-color);
 }
 
 .social-link-icon:hover{
