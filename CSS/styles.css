@@ -117,6 +117,10 @@ header{
     background-color: var(--white-color);
 }
 
+.item{
+    display: flex;
+    justify-content: end;
+}
 .email,
 .tel{
     font-weight: 500;
@@ -125,13 +129,12 @@ header{
     letter-spacing: 0.02em;
     color:var(--text-color)
     }
-.contact-icon{
-    fill: var(--text-color)
-}
-.contact-icon:hover{
+
+.tel-icon,
+.email-icon{
+    fill: var(--text-color);
+    }
     
-    cursor: pointer;
-}
 .contact-list :hover,
 .contact-list :focus{
     fill: var(--blue-color);
@@ -369,11 +372,13 @@ header{
 .clients-list{
     display: flex;
     justify-content: center;
+    border-radius: 15px;
 }
 .client-logo{
     padding: 16px 32px 16px 32px;
     margin: 0px;
     outline: 1px solid var(--border-color-icon);
+    border-radius: 3px;
     width: 170px;
     height: 92px;
     fill: var(--border-color-icon)
@@ -384,8 +389,10 @@ header{
 .client-logo:hover,
 .client-logo:focus{
     fill: var(--blue-color);
+    outline-color: var(--blue-color);
     cursor: pointer;
 }
+
 /*кнопки фильтров*/
 .portfolio{
     padding-bottom: 94px;
