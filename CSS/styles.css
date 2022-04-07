@@ -314,6 +314,9 @@ header{
 .team-person:last-child{
     margin-right: 0px;
 }
+.sociallinks{
+    padding: 30px 32px 30px 32px;
+}
 
 .team-name,
 .team-possition{
@@ -321,20 +324,19 @@ header{
     line-height: 1.19;
     text-align: center;
 }
-.team-name{
-    margin-top: 30px;
 
+.team-name{
+    padding-bottom: 10px;
     font-weight: 500;
     color: var(--titels-color);
 }
 
 .team-possition{
+    padding-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;
 }
-.sociallinks{
-    padding: 16px 32px 30px 32px;
-}
+
 .sociallinks-list{
     display: flex;
     justify-content: center;
@@ -346,22 +348,27 @@ header{
     height: 44px;
     margin-left: 10px;
     border-radius: 30px;
+
     background-color: var(--white-color);
+    
 }
 
 .sociallinks-item:last-child{
     margin-left: 0px;
 }
+
+.sociallink-icon{
+    fill: var(--border-color-icon);
+}
+
 .sociallinks-item:hover,
 .sociallinks-item:focus{
-    background-color: var(--blue-color);
-}
-.sociallink-icon{
-    fill: var(--border-color-icon)
+fill: var(--white-color);
+background-color: var(--blue-color);
 }
 .sociallink-icon:hover,
 .sociallink-icon:focus{
-    fill: var(--white-color)
+    fill:inherit;
 }
 
 /*Сеция постоянные клиенты*/
