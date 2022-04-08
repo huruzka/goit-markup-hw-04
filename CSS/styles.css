@@ -110,6 +110,10 @@ header{
     margin-left: 50px;
 }
 
+.current{
+    color: var(--blue-color);
+}
+
 .nav-item :hover,
 .nav-item :focus{
     color: var(--blue-color);
