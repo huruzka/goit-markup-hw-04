@@ -370,9 +370,6 @@ background-color: var(--blue-color);
     display: flex;
     border-radius: 15px;
 }
-.client-logo{
-
-}
 
 .client-logo:not(:last-child){
     margin-right: 30px;
