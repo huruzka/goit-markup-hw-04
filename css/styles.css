@@ -234,10 +234,8 @@ img {
 .social-media-list {
         display: flex;
   }
-.team-social-media-icons{
-    margin-right: 24px;
-    margin-left: 16px;
-}
+
+
 .team-icon{
     display: flex;
     align-items: center;
