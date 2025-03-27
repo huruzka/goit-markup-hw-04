@@ -161,6 +161,7 @@ img {
 
 .philosophy {
     padding: 120px 0;
+    border-radius: 0;
 }
 .philosophy-list {
     display: flex;
@@ -168,6 +169,16 @@ img {
 }
 .philosophy-column{
     flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.philosophy-icon{
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 24px 100px;
+
 }
 .philosophy-subtitle{
     margin-bottom: 8px;
@@ -218,7 +229,17 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.team-icons{
+    display: flex;
+    gap: 24px;
+    margin-left: 16px;
 
+}
+.team-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: ;
+}
 .portfolio{
     padding: 120px 0 120px 0;
 }
