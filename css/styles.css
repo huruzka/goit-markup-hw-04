@@ -233,6 +233,7 @@ img {
 }
 .social-media-list {
         display: flex;
+        margin:0;
   }
 
 
