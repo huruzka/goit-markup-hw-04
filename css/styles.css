@@ -182,7 +182,7 @@ img {
 }
 
 .philosophy-icon{
-    border: 1px solid var(--light-slate);
+    border: 1px solid #E7E9FC;
     border-radius: 4px;
     width: 264px;
     height: 112px;
@@ -243,14 +243,14 @@ img {
 }
 .social-media-list {
         display: flex;
-        margin:0;
+        gap: 24px;
+        margin-top: 8px;
+        margin-left: 16px;
+        padding: 0;
   }
-
 
 .team-icon{
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -365,7 +365,10 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-.social-media-icons{
-    margin-right: 16px;
+
+.footer .social-media-list {
+    padding: 0;
+    margin-left: 0;
     margin-top: 16px;
 }
+
