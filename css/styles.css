@@ -296,6 +296,7 @@ img {
     height: 300px;
     margin: 0 auto;
     overflow: hidden;
+    transform: translateY(0%);
 }
 
 .overlay-text{
